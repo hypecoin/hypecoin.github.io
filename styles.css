@@ -1,0 +1,20 @@
+body {
+	background-image: url("bg.svg");
+	background-size: cover;
+	height: 100vh;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+a {
+	margin: 10px;
+	display: inline-block;
+}
