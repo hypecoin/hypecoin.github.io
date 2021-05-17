@@ -1,10 +1,31 @@
 body {
-	background-image: url("hype_bg.svg");
+	background-image: url("bg2.svg");
 	background-size: cover;
-	height: 100vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 a {
+	text-decoration: none;
+}
+
+#logo {
 	margin: 10px;
 	display: inline-block;
+}
+
+#title {
+	margin: 5px;
+	font-family: 'Permanent Marker';
+	font-size: 50px;
+	color: rgb(222, 222, 222);
+	text-shadow: 3px 3px black;
+}
+
+#text {
+	margin: 5px;
+	font-family: 'Bubblegum Sans';
+	font-size: 40px;
+	color: rgb(222, 222, 222);
+	text-shadow: 2px 2px black;
 }
