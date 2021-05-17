@@ -32,15 +32,10 @@ a {
 
 #text {
 	margin: 5px;
-	font-family: 'Bubblegum Sans';
-	font-size: 40px;
+	font-family: 'Oxanium';
+	font-size: 34px;
 	text-shadow: 2px 2px black;
-	
-	animation-name: colors_light;
-	animation-duration: 30s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	animation-delay: -15s;
+	color: white;
 }
 
 @keyframes colors {
