@@ -8,7 +8,7 @@ body {
 a {
 	text-decoration: none;
 	animation-name: colors;
-	animation-duration: 0.9s;
+	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 }
@@ -22,7 +22,7 @@ a {
 	margin: 5px;
 	font-family: 'Permanent Marker';
 	font-size: 50px;
-	text-shadow: 2px 2px black, -2px -2px white;
+	text-shadow: 3px 3px black, -1px -1px white;
 	
 	animation-name: colors;
 	animation-duration: 30s;
@@ -34,9 +34,9 @@ a {
 	margin: 5px;
 	font-family: 'Bubblegum Sans';
 	font-size: 40px;
-	text-shadow: 1px 1px black, -1px -1px white;
+	text-shadow: 2px 2px black;
 	
-	animation-name: colors;
+	animation-name: colors_light;
 	animation-duration: 30s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
@@ -64,4 +64,27 @@ a {
     85% {color: hsl(306, 70%, 70%);}
     90% {color: hsl(324, 70%, 70%);}
     95% {color: hsl(342, 70%, 70%);}
+}
+
+@keyframes colors_light {
+    0%, 100% {color: hsl(0, 60%, 90%);}
+    5%  {color: hsl(18, 60%, 90%);}
+    10% {color: hsl(36, 60%, 90%);}
+    15% {color: hsl(54, 60%, 90%);}
+    20% {color: hsl(72, 60%, 90%);}
+    25% {color: hsl(90, 60%, 90%);}
+    30% {color: hsl(108, 60%, 90%);}
+    35% {color: hsl(126, 60%, 90%);}
+    40% {color: hsl(144, 60%, 90%);}
+    45% {color: hsl(162, 60%, 90%);}
+    50% {color: hsl(180, 60%, 90%);}
+    55% {color: hsl(198, 60%, 90%);}
+    60% {color: hsl(216, 60%, 90%);}
+    65% {color: hsl(234, 60%, 90%);}
+    70% {color: hsl(252, 60%, 90%);}
+    75% {color: hsl(270, 60%, 90%);}
+    80% {color: hsl(288, 60%, 90%);}
+    85% {color: hsl(306, 60%, 90%);}
+    90% {color: hsl(324, 60%, 90%);}
+    95% {color: hsl(342, 60%, 90%);}
 }
